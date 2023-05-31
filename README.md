@@ -2,64 +2,64 @@
 
 > Alura's 3rd BI Challenge 
 
-## 
-A empresa Hermex necessita analisar dados sobre a logística das entregas do seu negócio.
+## Problem description
 
-Foram disponibilizados os dados contidos no banco de dados quanto às informações das entregas, bem como a identidade visual da empresa.
+The company Hermex needs to analyze data on the logistics of its business deliveries.
 
-Os resultados podem ser acessados em: [Tableau Dashboard](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
+Data contents were made available in the database regarding delivery information, as well as the company's visual identity.
 
-## Ferramentas
+The results can be accessed at: [Tableau Dashboard](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
 
-- Python - Limpeza dos dados.
-- Tableau - Análise de dados.
+## Tools
 
-## Objetivos
+- Python - Data cleaning.
+- Tableau - Data analysis.
 
-Criar um ou mais dashboards que avaliem:
+## Objectives
 
-* Entregas feitas no prazo.
-* Entregas atrasadas
-* Número de veículos disponíveis.
-* Ship to Door (S2D) em dias.
-* Entregas por estado.
-* Nível médio de Estoque por ano.
+Create one or more dashboards that measure:
+
+* Deliveries made on time.
+* Late deliveries
+* Number of vehicles available.
+* Ship to Door (S2D) in days.
+* Deliveries by state.
+* Average Inventory level per year.
 
 ## Dashboards
 
-Foram implementados 3 dashboards, relativos a:
+3 dashboards were implemented, related to:
 
-1. Visão geral.
-2. Produtos
-3. Pedidos em Trânsito. 
+1. General view.
+2. Products
+3. Orders in Transit.
 
-### Visão geral:
+### General view:
 
-Neste dashboard, são avaliados todas as informações requeridas nos objetivos do projeto (destacados acima).
+In this dashboard, all the information required in the project objectives (highlighted above) are evaluated.
 
-Nessa view, o campo "Delivery Status" pode ser utilizado como filtro. Com isso, é possível identificar que o S2D médio é de 10 dias para entregas no prazo e 20 dias para entregas atrasadas. 
+In this view, the "Delivery Status" field can be used as a filter. Thus, it is possible to identify that the average S2D is 10 days for on-time deliveries and 20 days for late deliveries.
 
-Além disso, pode-se observar que a quantidade média de produtos em estoque tem crescido ano a ano. 
+In addition, it can be seen that the average quantity of products in stock has grown year after year.
 
-Por fim, o mapa do Brasil ilustra a quantidade de pedidos por estado. Pode-se observar que os estados de São Paulo e Rio de Janeiro concentram a maior quantidade de pedidos da empresa. Além disso, este mapa também funciona como filtro, podendo-se avaliar por estado as entregas on time, atrasadas e S2D médio.
+Finally, the map of Brazil illustrates the number of orders by state. It can be seen that the states of São Paulo and Rio de Janeiro concentrate the largest number of orders for the company. In addition, this map also works as a filter, allowing on-time deliveries, late deliveries and average S2D to be evaluated by State.
 
 ### Produtos
 
-Esse dashboard traz informações adicionais relativas a produtos.
+This dashboard brings additional information related to products.
 
-Foram identificados 147,924 produtos descategorizados, bem como 10 diferentes categorias não presentes no banco de dados da empresa. Pode representar uma base de dados desatualizada, ou registros de pedidos com referência errada a produtos. 
+147,924 uncategorized products were identified, as well as 10 different categories not present in the company's database. It may represent an outdated database, or order records with wrong reference to products.
 
-Além disso, essa view destaca as categorias dos produtos mais vendidos, e as categorias de produtos mais lucrativas.
+In addition, this view highlights the TOP selling product categories, and the most profitable product categories.
 
-Finalmente, no mapa do Brasil é possível identificar a categoria de produtos mais popular por Estado, bem como a quantidade de pedidos da mesma. 
+Finally, on the map of Brazil it is possible to identify the most popular product category by State, as well as the number of orders of them.
 
-### Pedidos em Trânsito
+### Orders in Transit
 
-Esse dashboard traz informações adicionais relativas a pedidos em trânsito.
+This dashboard brings additional information regarding orders in transit.
 
-Foram identificados 3,757 produtos em trânsito. Além disso, mesmo havendo 3 tipos de veículos disponíveis para entregas na empresa (Caminhonete, Carro e Moto), 100% dos pedidos em trânsito estão atribuídos a motos.
+3,757 products were identified in transit. Furthermore, even though there are 3 types of vehicles available for deliveries to the company (Truck, Car and Motorcycle), 100% of orders in transit are attributed to motorcycles.
 
-O mapa do Brasil funciona como filtro, e destaca a quantidade de pedidos em trânsito por estado. Novamente, São Paulo e Rio de Janeiro são os estados com maior quantidade de produtos em trânsito. 
+The map of Brazil works as a filter, and highlights the number of orders in transit by State. Again, São Paulo and Rio de Janeiro are the states with the highest number of products in transit.
 
-Por último, o gráfico mais a baixo ilustra a quantidade de entregas esperadas por dia nos meses avaliados (Março e Maio de 2021). Pode-se observar que a quantidade de entregas em abril é superior a maio no país. Ao se selecionar um estado específico no mapa, é possível identificar a expectativa de entregas por dia para cada estado separadamente. 
-
+Finally, the bottom graph illustrates the number of expected deliveries per day in the evaluated months (March and May 2021). It can be seen that the number of deliveries in April is higher than in May in the country. By selecting a specific state on the map, it is possible to identify the expected deliveries per day for each state separately.
