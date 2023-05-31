@@ -44,9 +44,8 @@ In addition, it can be seen that the average quantity of products in stock has g
 
 Finally, the map of Brazil illustrates the number of orders by state. It can be seen that the states of São Paulo and Rio de Janeiro concentrate the largest number of orders for the company. In addition, this map also works as a filter, allowing on-time deliveries, late deliveries and average S2D to be evaluated by State.
 
-[<img src="images/Dash1.png">](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
+[<img src="images/Dash1.png" target="_blank">](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
 
-<a href="[http://google.com.au/](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)" rel="some text">![Foo](images/Dash1.png)</a>
 
 
 
