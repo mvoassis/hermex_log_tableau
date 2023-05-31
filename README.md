@@ -44,7 +44,7 @@ In addition, it can be seen that the average quantity of products in stock has g
 
 Finally, the map of Brazil illustrates the number of orders by state. It can be seen that the states of São Paulo and Rio de Janeiro concentrate the largest number of orders for the company. In addition, this map also works as a filter, allowing on-time deliveries, late deliveries and average S2D to be evaluated by State.
 
-[<img src="images/Dash1.png" target="_blank">](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
+[<img src="images/Dash1.png">](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
 
 
 
@@ -59,6 +59,9 @@ In addition, this view highlights the TOP selling product categories, and the mo
 
 Finally, on the map of Brazil it is possible to identify the most popular product category by State, as well as the number of orders of them.
 
+[<img src="images/Dash2.png">](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
+
+
 ### Orders in Transit
 
 This dashboard brings additional information regarding orders in transit.
@@ -68,3 +71,6 @@ This dashboard brings additional information regarding orders in transit.
 The map of Brazil works as a filter, and highlights the number of orders in transit by State. Again, São Paulo and Rio de Janeiro are the states with the highest number of products in transit.
 
 Finally, the bottom graph illustrates the number of expected deliveries per day in the evaluated months (March and May 2021). It can be seen that the number of deliveries in April is higher than in May in the country. By selecting a specific state on the map, it is possible to identify the expected deliveries per day for each state separately.
+
+[<img src="images/Dash3.png">](https://public.tableau.com/app/profile/marcos.assis6468/viz/ChallengeBISem2/Hermexlog-Dashboard?publish=yes)
+
