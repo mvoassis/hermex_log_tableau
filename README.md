@@ -1,4 +1,5 @@
 # Hermex log - Data Analysis - BI
+### Marcos Oliveira (mvoassis@gmail.com)
 
 > Alura's 3rd BI Challenge 
 
